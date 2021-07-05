@@ -107,8 +107,7 @@ export default class ActivityStore {
             })
         } catch (error) {
             console.log(error)
-            runInAction(() => {
-                
+            runInAction(() => {     
                 this.loading = false;
             })
         }
