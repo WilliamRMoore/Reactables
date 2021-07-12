@@ -23,6 +23,9 @@ body{
   ) !important;
   height: 100vh;
 }
+.react-datepicker-wrapper {
+  width: 100%;
+}
 
 .masthead .ui.menu .ui.button,
 .ui.menu a.ui.inverted.button {
