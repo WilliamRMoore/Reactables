@@ -8,6 +8,7 @@ using Reactivities.Domain;
 using Reactivities.Persistence;
 using Reactivities.Application.Activities;
 using System.Threading;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Reactivities.API.Controllers
 {
