@@ -1,17 +1,15 @@
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Reactivities.API.Controllers.AbsClasses;
 using Reactivities.Domain;
-using Reactivities.Persistence;
 using Reactivities.Application.Activities;
 using System.Threading;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Reactivities.API.Controllers
 {
+    [AllowAnonymous]
     public class ActivitiesController : BaseApiController
     {
 
